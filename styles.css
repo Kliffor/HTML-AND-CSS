@@ -7,20 +7,20 @@
 }
 
 .header{
-    margin: 20px;
+    margin: 21px;
 }
 
 .products {
-    Width: 107px;
+    Width: 108px;
     height: 20px;
     top: 47px;
     left: 42px;
-    margin: 20px;
+    margin: 21px;
     cursor: pointer;
 }
 
 .company {
-    margin: 20px;
+    margin: 21px;
     cursor: pointer;
 }
 
