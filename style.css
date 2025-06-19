@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    margin: 21px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.products {
+    Width: 108px;
+    height: 20px;
+    top: 47px;
+    left: 42px;
+    margin: 21px;
+}
+
+.company {
+    margin: 21px;
+}
+
+.blog {
+    margin: 20px;
+}
+
+.login {
+    margin-right: 20px;
+}
+
+.imagem {
+    margin-right: 50px;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin: 20px;
+}
+
+p {
+  
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+button {
+    Width: 90px;
+    Height: 31px;
+    Top: 32px;
+    Left: 420px;
+    border-radius: 10px;
+    background: #6FBF44;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+h1{
+    margin-bottom: 10px;
+    width: 500px;
+    top: 342px;
+    left: 801px;
+    font-size: 62px;
+    
+}
+
+.learn{
+ 
+    color: #6FBF44;
+    cursor: pointer;
+    width: 112px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .header {
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    p {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        margin: auto;
+        margin: 50px 50px 0 60px; 
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        
+    }
+
+
+    img {
+        width: 312px;
+        height: 288px;
+        margin-top: 65px;
+        order: 3;
+        flex-direction: column;
+        display: flex;
+    }
+
+    button {
+        font-family: poppins;
+        Width: 90px;
+        Height: 31px;
+        Top: 32px;
+        Left: 370px;
+        border-radius: 10px;
+        background: #6FBF44;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        visibility: visible;
+        position: absolute;
+    }
+
+    h1 {
+        display: inline-block;
+        flex-direction: column;
+        text-align: center;
+        font-size: 32px;
+        margin-left: 30px;
+        width: 250px;
+        height: 60px;
+    }
+
+    .learn {
+        line-height: 100%;
+        display: inline-flex;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 0px;
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+}
+
+
